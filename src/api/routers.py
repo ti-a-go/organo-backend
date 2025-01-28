@@ -35,7 +35,7 @@ async def create_employee(db: DBSession, data: CreateEmployee):
 
     if result is None:
         raise HTTPException(status_code=HTTPStatus.NOT_FOUND, detail="Team not found.")
-    
+
     return result
 
 

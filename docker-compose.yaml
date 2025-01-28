@@ -9,14 +9,8 @@ services:
       - "8000"
     depends_on:
       - db
-    environment:
-      DATABASE_ENGINE: ${DATABASE_ENGINE}
-      DATABASE_HOST: ${DATABASE_HOST}
-      DATABASE_PORT: ${DATABASE_PORT}
-      DATABASE_NAME: ${DATABASE_NAME}
-      DATABASE_USER: ${DATABASE_USER}
-      DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-      DEBUG: ${DEBUG}
+    env_file:
+      - ./.env
 
   db:
     image: postgres:17
