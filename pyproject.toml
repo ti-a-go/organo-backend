@@ -1,0 +1,9 @@
+[project]
+name = "organo-backend"
+version = "0.1.0"
+description = "Simple backend used by Organo front-end."
+authors = [
+    {name = "Tiago",email = "tiagosn03@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12.3"
