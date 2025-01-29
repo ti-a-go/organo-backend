@@ -1,3 +1,9 @@
+# Set up frontend
+
+This project is intended to be the backend for the Organo frontend app.
+
+After set up this project with the help of the instructions on this repository you are ready to run the [frontend application](https://github.com/ti-a-go/organo-frontend).
+
 # Start Docker services (`organo_db` & `organo_api`)
 
 The [docker-compose.yaml file](./docker-compose.yaml) is ready to start two services:
